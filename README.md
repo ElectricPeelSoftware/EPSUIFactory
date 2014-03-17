@@ -11,6 +11,8 @@ All views returned by `EPSUIFactory` are ready to be used with auto layout (ie. 
 
 ## Usage
 
+### Factory Methods
+
 ```objective-c
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -23,6 +25,23 @@ All views returned by `EPSUIFactory` are ready to be used with auto layout (ie. 
 ```
 
 For complete documentation of the methods available, see [EPSUIFactory.h](https://github.com/ElectricPeelSoftware/EPSUIFactory/blob/master/Classes/EPSUIFactory.h).
+
+### UIView+EPSAutoLayout
+
+There is an included category on `UIView` which makes setup for views not included in the factory methods easier. Use `eps_initForAutolayout` instead of `initWithFrame:` when you are creating a view for use with auto layout. For example:
+
+```objective-c
+UIView *view = [[UIView alloc] eps_initForAutoLayout];
+```
+
+is equivalent to
+
+```objective-c
+UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
+view.translatesAutoresizingMaskIntoConstraints = NO;
+```
+
+### Example Project
 
 To run the example project; clone the repo, and run `pod install` from the “Project” directory first.
 
