@@ -22,7 +22,7 @@ All views returned by `EPSUIFactory` are ready to be used with auto layout (ie. 
 }
 ```
 
-For complete documentation of the methods available, see [EPSUIFactory.h](https://github.com/ElectricPeelSoftware/EPSFactoryUI/blob/master/Classes/EPSFactoryUI.h).
+For complete documentation of the methods available, see [EPSUIFactory.h](https://github.com/ElectricPeelSoftware/EPSFactoryUI/blob/master/Classes/EPSUIFactory.h).
 
 To run the example project; clone the repo, and run `pod install` from the “Project” directory first.
 
