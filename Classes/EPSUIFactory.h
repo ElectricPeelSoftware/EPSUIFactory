@@ -39,7 +39,7 @@
 /// @return A container view that is a subview of the given scroll view.
 + (UIView *)containerViewForVerticalScrollingInScrollView:(UIScrollView *)scrollView;
 
-/// Adds a container view as a subview of the given scroll view, and sets up constraints to ensure the scroll view will only scroll vertically.
+/// Adds a container view as a subview of the given scroll view, and sets up constraints to ensure the scroll view will only scroll horizontally.
 /// @param scrollView The scroll view to add a container view to.
 /// @return A container view that is a subview of the given scroll view.
 + (UIView *)containerViewForHorizontalScrollingInScrollView:(UIScrollView *)scrollView;
