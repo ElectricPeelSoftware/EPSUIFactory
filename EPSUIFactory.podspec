@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EPSUIFactory"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A class that provides factory methods for UIKit control set up in common ways."
 
   s.homepage         = "https://github.com/ElectricPeelSoftware/EPSUIFactory"
