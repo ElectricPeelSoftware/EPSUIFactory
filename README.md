@@ -28,7 +28,7 @@ For complete documentation of the methods available, see [EPSUIFactory.h](https:
 
 ### UIView+EPSAutoLayout
 
-There is an included category on `UIView` which makes setup for views not included in the factory methods easier. Use `eps_initForAutolayout` instead of `initWithFrame:` when you are creating a view for use with auto layout. For example:
+There is an included category on `UIView` which makes setup for views not included in the factory methods easier. Use `eps_initForAutoLayout` instead of `initWithFrame:` when you are creating a view for use with auto layout. For example:
 
 ```objective-c
 UIView *view = [[UIView alloc] eps_initForAutoLayout];
