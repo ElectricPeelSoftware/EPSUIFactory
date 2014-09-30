@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EPSUIFactory"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "A class that provides factory methods for UIKit control set up in common ways."
 
   s.homepage         = "https://github.com/ElectricPeelSoftware/EPSUIFactory"
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Classes'
-
+  s.framework = 'UIKit'
   s.public_header_files = 'Classes/*.h'
 end
